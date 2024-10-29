@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero';
-import scrollicon from './components/scrollicon';
+import Scrollicon from './components/Scrollicon';
 import MobilestockSection from './components/MobilestackSection';
 const App = () => {
   return (
@@ -9,7 +9,7 @@ const App = () => {
       
       <Navbar />
       <Hero />
-      <scrollicon />
+      <Scrollicon />
       <MobilestockSection />
     </div>
   )
